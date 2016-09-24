@@ -1,0 +1,243 @@
+/*
+GREEN #56EDCA;
+BLUE #59CBFF;
+*/
+
+body{
+	margin: 0;
+}
+
+/*Fonts*/
+h1,h2,h3,h4,h5,h6,p,li{
+	font-family: 'Old Standard TT', serif;
+}
+
+/*Button*/
+.btn{
+	border: 2px solid #555;
+	padding: 10px 20px;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #555;
+	text-align: center;
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin: auto 10px;
+}
+
+/*Input*/
+input{
+	width: 100%;
+	padding: 16px 20px;
+	margin-bottom: 10px;
+	border: 2px solid #555;
+	font-size: 1.1em;
+	border-radius: 0;
+	background-color: rgba(1,1,1,0);
+}
+
+/*Padding*/
+.padding{
+	padding-top: 100px; 
+}
+.small-pad{
+	padding-bottom: 25px;
+}
+
+/*Landing*/
+.landing{
+	background-image: url(https://hd.unsplash.com/photo-1461169879760-42b6796c1fc0);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	height: 800px;
+}
+.landing-row{ 
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* Standard syntax */
+}
+.landing h1{
+	padding-top: 200px;
+	letter-spacing: 7px;
+}
+.landing h1,h5{
+	margin-bottom: 0;
+}
+
+/*About*/
+.about{
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, 1) , rgba(95,205,255, 1)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, 1), rgba(95,205,255, 1)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, 1), rgba(95,205,255, 1)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, 1) , rgba(95,205,255, 1)); /* Standard syntax */
+	color: white;
+}
+.about h2,h1{
+	text-align: center;
+}
+.about h5{
+	font-weight: bold;;
+	line-height: 20px;
+}
+.stuff p{
+	border: 1px solid white;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-align: center;
+}
+.list i{
+	display: block;
+	text-align: center;
+}
+#num{
+	font-weight: bold;
+	font-size: 5em;
+}
+
+/*Test*/
+.test{
+	background-image: url(https://static.pexels.com/photos/90829/pexels-photo-90829.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.test .img{
+	background: #59CBFF;
+	background: -webkit-linear-gradient(left, rgba(85,237,191, .5) , rgba(95,205,255, .5)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .5), rgba(95,205,255, .5)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .5), rgba(95,205,255, .5)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .5) , rgba(95,205,255, .5)); /* Standard syntax */
+	color: white;
+	padding: 20px;
+}
+
+/*Quotes*/
+.quotes{
+	text-align: center;
+	color: #444;
+}
+.quotes i{
+	color: #59CBFF;
+}
+.quotes .btn{
+	border: 2px solid #59CBFF;
+	background-color: #59CBFF;
+	color: white;
+	font-weight: bold;
+}
+.quotes .btn:hover{
+	color: white;
+	background-color: #59CBFF;
+}
+
+/*More*/
+.more{
+	background-color: white;
+	text-align: center;
+	color: #444;
+}
+
+/*Explore*/
+.explore{
+	background-image: url(https://static.pexels.com/photos/6547/sky-night-space-galaxy.jpeg); 
+	background-position: top;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.explore .row{
+	padding: 30px;
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .6), rgba(95,205,255, .6)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .6), rgba(95,205,255, .6)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* Standard syntax */
+}
+.explore .row:hover{
+	padding: 30px;
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* Standard syntax */
+}
+.explore input,.btn{
+	color: white;
+	border: 2px solid white;
+}
+.explore .btn{
+	margin: 0;
+}
+.explore .btn:hover{
+	background-color: rgba(255,255,255,.8);
+	color: #444;
+}
+
+/*Footer*/
+.footer{
+	background-image: url(https://static.pexels.com/photos/24624/pexels-photo-24624.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.input-grad{
+	padding: 60px 30px;
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .6), rgba(95,205,255, .6)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .6), rgba(95,205,255, .6)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* Standard syntax */
+}
+.input-grad:hover{
+	padding: 60px 30px;
+	background: #59CBFF;
+  	background: -webkit-linear-gradient(left, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgba(85,237,191, .7), rgba(95,205,255, .7)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( to right, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* Standard syntax */
+}
+.textarea{
+	height: 185px;
+}
+.footer input,.btn{
+	color: white;
+	border: 2px solid white;
+}
+.footer .btn{
+	margin: 0;
+}
+.footer h2{
+	color: white;
+	text-align: center;
+}
+.footer .btn:hover{
+	background-color: rgba(255,255,255,.8);
+	color: #444;
+}
+.footer img{
+	margin: auto auto;
+	display: block;
+}
+
+
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 13px;  
+}
+::-webkit-scrollbar-thumb {
+    background: #59CBFF;
+    padding-left: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #56EDCA;
+}
+
+
