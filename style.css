@@ -19,7 +19,6 @@ h1,h2,h3,h4,h5,h6,p,li{
 	font-size: 1.3em;
 	font-weight: 400;
 	color: #555;
-	text-align: center;
 	letter-spacing: 2px;
 	cursor: pointer;
 	margin: auto 10px;
@@ -83,9 +82,6 @@ input{
 	background: #59CBFF;
 	color: white;
 }
-.about h2,h1{
-	text-align: center;
-}
 .about h5{
 	font-weight: bold;;
 	line-height: 20px;
@@ -94,7 +90,6 @@ input{
 	border: 1px solid white;
 	margin-bottom: 5px;
 	padding: 5px;
-	text-align: center;
 }
 .list i{
 	display: block;
@@ -132,8 +127,8 @@ input{
 
 /*Quotes*/
 .quotes{
-	text-align: center;
 	color: #444;
+	text-align: center;
 }
 .quotes i{
 	color: #59CBFF;
@@ -164,7 +159,7 @@ input{
 	background-position: center;
 	background-attachment: fixed;
 }
-.explore .row{
+.explore .grad{
 	padding: 30px;
 	background: #59CBFF;
   	background: -webkit-linear-gradient(left, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* For Safari 5.1 to 6.0 */
@@ -172,7 +167,7 @@ input{
   	background: -moz-linear-gradient(right, rgba(85,237,191, .6), rgba(95,205,255, .6)); /* For Firefox 3.6 to 15 */
   	background: linear-gradient( to right, rgba(85,237,191, .6) , rgba(95,205,255, .6)); /* Standard syntax */
 }
-.explore .row:hover{
+.explore .grad:hover{
 	padding: 30px;
 	background: #59CBFF;
   	background: -webkit-linear-gradient(left, rgba(85,237,191, .7) , rgba(95,205,255, .7)); /* For Safari 5.1 to 6.0 */
@@ -199,6 +194,9 @@ input{
 	border-top: 50px solid white;
 	margin: 0 auto;
 }
+.explore h2{
+	color: white;
+}
 
 /*Footer*/
 .footer{
@@ -206,7 +204,6 @@ input{
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
-	text-align: center;
 }
 .input-grad{
 	padding: 60px 30px;
@@ -233,10 +230,6 @@ input{
 }
 .footer .btn{
 	margin: 0;
-}
-.footer h2{
-	color: white;
-	text-align: center;
 }
 .footer .btn:hover{
 	background-color: rgba(255,255,255,.8);
