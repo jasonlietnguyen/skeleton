@@ -68,14 +68,19 @@ input{
 .landing h1,h5{
 	margin-bottom: 0;
 }
+.landing .triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid white;
+	opacity: .3;
+	margin: 0 auto;
+}
 
 /*About*/
 .about{
 	background: #59CBFF;
-  	background: -webkit-linear-gradient(left, rgba(85,237,191, 1) , rgba(95,205,255, 1)); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(right, rgba(85,237,191, 1), rgba(95,205,255, 1)); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(right, rgba(85,237,191, 1), rgba(95,205,255, 1)); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient( to right, rgba(85,237,191, 1) , rgba(95,205,255, 1)); /* Standard syntax */
 	color: white;
 }
 .about h2,h1{
@@ -115,6 +120,14 @@ input{
   	background: linear-gradient( to right, rgba(85,237,191, .5) , rgba(95,205,255, .5)); /* Standard syntax */
 	color: white;
 	padding: 20px;
+}
+.test .triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid rgba(95,205,255, 1);
+	margin: 0 auto;
 }
 
 /*Quotes*/
@@ -178,6 +191,14 @@ input{
 	background-color: rgba(255,255,255,.8);
 	color: #444;
 }
+.explore .triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid white;
+	margin: 0 auto;
+}
 
 /*Footer*/
 .footer{
@@ -224,6 +245,14 @@ input{
 .footer img{
 	margin: auto auto;
 	display: block;
+}
+.footer .triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid white;
+	margin: 0 auto;
 }
 
 
